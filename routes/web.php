@@ -24,3 +24,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/accueil', 'HomeController@accueil')->name('accueil');
+Route::get('/register', 'HomeController@register')->name('register');
+Route::get('/joblisting', 'HomeController@joblisting')->name('joblisting');
+Route::get('/jobsingle', 'HomeController@jobsingle')->name('jobsingle');
+Route::get('/jobproposal', 'HomeController@jobproposal')->name('jobproposal');
+Route::get('/usersingle', 'HomeController@usersingle')->name('usersingle');
+Route::get('/userlisting', 'HomeController@userlisting')->name('userlisting');
+

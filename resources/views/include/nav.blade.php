@@ -3,7 +3,7 @@
 					<div class="container-fluid">
 						<div class="row">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<strong class="wt-logo"><a href="index-2.html"><img src="{{ asset('web/images/logo.png')}}" alt="company logo here"></a></strong>
+								<strong class="wt-logo"><a href="{{ route('accueil') }}"><img src="{{ asset('web/images/logo.png')}}" alt="company logo here"></a></strong>
 								<div class="wt-rightarea">
 									<nav id="wt-nav" class="wt-nav navbar-expand-lg">
 										<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,13 +58,13 @@
 													<a href="javascript:void(0);">Browse Jobs</a>
 													<ul class="sub-menu">
 														<li>
-															<a href="joblisting.html">Job Listing</a>
+															<a href="{{ route('joblisting') }}">Job Listing</a>
 														</li>
 														<li class="current-menu-item">
-															<a href="jobsingle.html">Job Single</a>
+															<a href="{{ route('jobsingle') }}">Job Single</a>
 														</li>
 														<li>
-															<a href="jobproposal.html">Job Proposal</a>
+															<a href="{{ route('jobproposal') }}">Job Proposal</a>
 														</li>
 													</ul>
 												</li>
@@ -72,10 +72,10 @@
 													<a href="javascript:void(0);">View Freelancers</a>
 													<ul class="sub-menu">
 														<li>
-															<a href="userlisting.html">User Listing</a>
+															<a href="{{ route('userlisting') }}">User Listing</a>
 														</li>
 														<li class="current-menu-item">
-															<a href="usersingle.html">User Single</a>
+															<a href="{{ route('usersingle') }}">User Single</a>
 														</li>
 													</ul>
 												</li>
@@ -111,7 +111,7 @@
 													</fieldset>
 													<div class="wt-loginfooterinfo">
 														<a href="javascript:;" class="wt-forgot-password">Forgot password?</a>
-														<a href="register.html">Create account</a>
+														<a href="{{ route('register') }}">Create account</a>
 													</div>
 												</form>
 											    <form class="wt-formtheme wt-loginform do-forgot-password-form wt-hide-form">
@@ -119,10 +119,10 @@
 											            <div class="form-group">
 											                <input type="email" name="email" class="form-control get_password" placeholder="Email">
 											            </div>
-											           
+
 											            <div class="wt-logininfo">
 											                <a href="javascript:;" class="wt-btn do-get-password">Get Pasword</a>
-											            </div>     
+											            </div>
 											        </fieldset>
 											        <div class="wt-loginfooterinfo">
 											            <a href="javascript:void(0);" class="wt-show-login">Login</a>

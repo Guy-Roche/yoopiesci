@@ -31,4 +31,34 @@ class HomeController extends Controller
     {
         return view('accueil');
     }
+
+    public function register()
+    {
+        return view('register');
+    }
+
+    public function userlisting()
+    {
+        return view('userlisting');
+    }
+
+    public function usersingle()
+    {
+        return view('usersingle');
+    }
+
+    public function jobsingle()
+    {
+        return view('jobsingle');
+    }
+
+    public function joblisting()
+    {
+        return view('joblisting');
+    }
+
+    public function jobproposal()
+    {
+        return view('jobproposal');
+    }
 }
