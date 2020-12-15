@@ -82,11 +82,11 @@
 											</ul>
 										</div>
 									</nav>
-									<div class="wt-loginarea">
+									<div class="wt-userlogedin">
 										<figure class="wt-userimg">
-											<img src="images/user-login.png" alt="img description">
+											<img src="{{ asset('web/images/user-login.png') }}" alt="image description">
 										</figure>
-										<div class="wt-loginoption">
+                                        <div class="wt-loginoption">
 											<a href="javascript:void(0);" id="wt-loginbtn" class="wt-loginbtn">Login</a>
 											<div class="wt-loginformhold">
 												<div class="wt-loginheader">
@@ -132,98 +132,57 @@
 											</div>
 										</div>
 										<a href="register.html" class="wt-btn">Join Now</a>
-									</div>
-									<div class="wt-userlogedin">
+                                    </div>
+                                    <div class="wt-loginarea">
 										<figure class="wt-userimg">
-											<img src="{{ asset('web/images/user-img.jpg') }}" alt="image description">
+											<img src="{{ asset('web/images/user-login.png') }}" alt="img description">
 										</figure>
-										<div class="wt-username">
-											<h3>Louanne Mattioli</h3>
-											<span>Amento Tech</span>
+										<div class="wt-loginoption">
+											<a href="javascript:void(0);" id="wt-loginbtn" class="wt-loginbtn">Login</a>
+											<div class="wt-loginformhold">
+												<div class="wt-loginheader">
+													<span>Login</span>
+													<a href="javascript:;"><i class="fa fa-times"></i></a>
+												</div>
+												<form class="wt-formtheme wt-loginform do-login-form">
+													<fieldset>
+														<div class="form-group">
+															<input type="text" name="username" class="form-control" placeholder="Username">
+														</div>
+														<div class="form-group">
+															<input type="password" name="password" class="form-control" placeholder="Password">
+														</div>
+														<div class="wt-logininfo">
+															<a href="javascript:;" class="wt-btn do-login-button">Login</a>
+															<span class="wt-checkbox">
+																<input id="wt-login" type="checkbox" name="rememberme">
+																<label for="wt-login">Keep me logged in</label>
+															</span>
+														</div>
+													</fieldset>
+													<div class="wt-loginfooterinfo">
+														<a href="javascript:;" class="wt-forgot-password">Forgot password?</a>
+														<a href="{{ route('register') }}">Create account</a>
+													</div>
+												</form>
+											    <form class="wt-formtheme wt-loginform do-forgot-password-form wt-hide-form">
+											        <fieldset>
+											            <div class="form-group">
+											                <input type="email" name="email" class="form-control get_password" placeholder="Email">
+											            </div>
+
+											            <div class="wt-logininfo">
+											                <a href="javascript:;" class="wt-btn do-get-password">Get Pasword</a>
+											            </div>
+											        </fieldset>
+											        <div class="wt-loginfooterinfo">
+											            <a href="javascript:void(0);" class="wt-show-login">Login</a>
+											            <a href="{{ route('register') }}">Create account</a>
+											        </div>
+											    </form>
+											</div>
 										</div>
-										<nav class="wt-usernav">
-											<ul>
-												<li class="menu-item-has-children page_item_has_children">
-													<a href="javascript:void(0);">
-														<span>Insights</span>
-													</a>
-													<ul class="sub-menu children">
-														<li><a href="dashboard-insights.html">Insights</a></li>
-														<li><a href="dashboard-insightsuser.html">Insights User</a></li>
-													</ul>
-												</li>
-												<li>
-													<a href="dashboard-profile.html">
-														<span>My Profile</span>
-													</a>
-												</li>
-												<li class="menu-item-has-children">
-													<a href="javascript:void(0);">
-														<span>All Jobs</span>
-													</a>
-													<ul class="sub-menu">
-														<li><a href="dashboard-completejobs.html">Completed Jobs</a></li>
-														<li><a href="dashboard-canceljobs.html">Cancelled Jobs</a></li>
-														<li><a href="dashboard-ongoingjob.html">Ongoing Jobs</a></li>
-														<li><a href="dashboard-ongoingsingle.html">Ongoing Single</a></li>
-													</ul>
-												</li>
-												<li>
-													<a href="dashboard-managejobs.html">
-														<span>Manage Jobs</span>
-													</a>
-												</li>
-												<li class="wt-notificationicon menu-item-has-children">
-													<a href="javascript:void(0);">
-														<span>Messages</span>
-													</a>
-													<ul class="sub-menu">
-														<li><a href="dashboard-messages.html">Messages</a></li>
-														<li><a href="dashboard-messages2.html">Messages V 2</a></li>
-													</ul>
-												</li>
-												<li>
-													<a href="dashboard-saveitems.html">
-														<span>My Saved Items</span>
-													</a>
-												</li>
-												<li>
-													<a href="dashboard-invocies.html">
-														<span>Invoices</span>
-													</a>
-												</li>
-												<li>
-													<a href="dashboard-category.html">
-														<span>Category</span>
-													</a>
-												</li>
-												<li>
-													<a href="dashboard-packages.html">
-														<span>Packages</span>
-													</a>
-												</li>
-												<li>
-													<a href="dashboard-proposals.html">
-														<span>Proposals</span>
-													</a>
-												</li>
-												<li>
-													<a href="dashboard-accountsettings.html">
-														<span>Account Settings</span>
-													</a>
-												</li>
-												<li>
-													<a href="dashboard-helpsupport.html">
-														<span>Help &amp; Support</span>
-													</a>
-												</li>
-												<li>
-													<a href="index-2.html">
-														<span>Logout</span>
-													</a>
-												</li>
-											</ul>
-										</nav>
+										<a href="{{ route('register') }}" class="wt-btn" >Join Now</a>
 									</div>
 								</div>
 							</div>
