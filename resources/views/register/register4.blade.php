@@ -1,4 +1,4 @@
-@extends('layouts.corps')
+@extends('.layouts.corps')
 
 @section('body')
 			<!--Inner Home Banner Start-->
@@ -37,53 +37,48 @@
 										</div>
 										<div class="wt-joinforms">
 											<ul class="wt-joinsteps">
-												<li class="wt-active"><a href="javascrip:void(0);">01</a></li>
+												<li><a href="javascrip:void(0);">01</a></li>
 												<li><a href="javascrip:void(0);">02</a></li>
-												<li><a href="javascrip:void(0);">03</a></li>
-												<li><a href="javascrip:void(0);">04</a></li>
+												<li ><a href="javascrip:void(0);">03</a></li>
+												<li class="wt-active"><a href="javascrip:void(0);">04</a></li>
 											</ul>
 											<form class="wt-formtheme wt-formregister">
 												<fieldset class="wt-registerformgroup">
-													<div class="form-group wt-form-group-dropdown form-group-half">
+
+                                                    <div class="form-group  form-group-half">
 														<span class="wt-select">
 															<select>
-																<option>mr.</option>
-																<option>mrs</option>
+                                                                <option>Langue parlée </option>
+                                                                <option>Français</option>
+                                                                <option>Anglais</option>
+                                                                <option>Mandarin</option>
+                                                                <option>Arabe</option>
+                                                                <option>si autre préciser</option>
 															</select>
 														</span>
-														<input type="text" name="First Name" class="form-control" placeholder="First Name">
-													</div>
-													<div class="form-group form-group-half">
-														<input type="text" name="Last Name" class="form-control" placeholder="Last Name">
-													</div>
+                                                    </div>
+                                                    <div class="form-group form-group-half">
+														<input type="text" name="LangAntre" class="form-control" placeholder="Chinois">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="formFileLg" class="form-label">Télécharger votre CV</label>
+                                                        <input class="form-control form-control-lg" id="formFileLg" type="file">
+                                                    </div>
+
+                                                    <div class="form-group ">
+														<input type="text" name="FonctAct class="form-control" placeholder="Professeur">
+                                                    </div>
+
 													<div class="form-group">
-														<input type="text" name="Email" class="form-control" placeholder="Email">
-													</div>
-													<div class="form-group">
-														<a href="register-02.html" class="wt-btn">Start Now</a>
+														<a href="{{ route ('register4') }}" class="wt-btn">Valider</a>
 													</div>
 												</fieldset>
 											</form>
-											<div class="wt-joinnowholder">
-												<div class="wt-title">
-													<h4>Join Now With</h4>
-												</div>
-												<div class="wt-description">
-													<p>Use a social account for faster login or easy registration to directly get in to your account and start a good business</p>
-												</div>
-												<ul class="wt-socialicons wt-iconwithtext">
-													<li class="wt-facebook"><a href="javascript:void(0);"><i class="fa fa-facebook-f"></i><em>Facebook</em></a>
-													</li>
-													<li class="wt-twitter"><a href="javascript:void(0);"><i class="fab fa-twitter"></i><em>Twitter</em></a></li>
-													<li class="wt-googleplus"><a href="javascript:void(0);"><i class="fab fa-google-plus-g"></i><em>Google</em></a></li>
-													<li class="wt-instagram"><a href="javascript:void(0);"><i class="fab fa-instagram"></i><em>Instagram</em></a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
+
 									<div class="wt-registerformfooter">
 										<span>Already Have an Account? <a href="javascript:void(0);">Login Now</a></span>
-									</div>
+									</div></br>
 								</div>
 							</div>
 						</div>
@@ -92,6 +87,7 @@
 				<!--Register Form End-->
 			</main>
 			<!--Main End-->
+
 
 
 @endsection

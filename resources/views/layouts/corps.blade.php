@@ -58,7 +58,7 @@
 						<div class="row">
 							<div class="col-12 col-sm-12 col-md-6 col-lg-6">
 								<div class="wt-footerlogohold">
-									<strong class="wt-logo"><a href="index-2.html"><img src="{{ asset('web/images/flogo.png')}}" alt="company logo here"></a></strong>
+									<strong class="wt-logo"><a href="index-2.html"><img src="{{ asset('web/images/logo/logo_white_transparent.png')}}" alt="company logo here" width="250px" height="250px"></a></strong>
 									<div class="wt-description">
 										<p>Dotem eiusmod tempor incune utnaem labore etdolore maigna aliqua enim poskina ilukita ylokem lokateise ination voluptate velit esse cillum dolore eu fugiat nulla pariatur lokaim urianewce <a href="javascript:void(0);">more...</a></p>
 									</div>

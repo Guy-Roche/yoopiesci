@@ -3,7 +3,7 @@
 					<div class="container-fluid">
 						<div class="row">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<strong class="wt-logo"><a href="{{ route('accueil') }}"><img src="{{ asset('web/images/logo.png')}}" alt="company logo here"></a></strong>
+								<strong class="wt-logo"><a href="{{ route('accueil') }}"><img src="{{ asset('web/images/logo/logo_small.png')}}" alt="company logo here" width="100px" height="100px"></a></strong>
 								<div class="wt-rightarea">
 									<nav id="wt-nav" class="wt-nav navbar-expand-lg">
 										<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

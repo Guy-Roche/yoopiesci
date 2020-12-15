@@ -34,7 +34,22 @@ class HomeController extends Controller
 
     public function register()
     {
-        return view('register');
+        return view('register.register');
+    }
+
+    public function register2()
+    {
+        return view('register.register2');
+    }
+
+    public function register3()
+    {
+        return view('register.register3');
+    }
+
+    public function register4()
+    {
+        return view('register.register4');
     }
 
     public function userlisting()
