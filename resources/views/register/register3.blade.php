@@ -47,7 +47,7 @@
 
                                                     <div class="form-group ">
 														<input type="text" name="niveau" class="form-control" placeholder="Niveau de formation">
-                                                    </div>
+                                                    </div>2
 
 													<div class="form-group ">
 														<input type="text" name="typeFormation" class="form-control" placeholder="Type de formation">
