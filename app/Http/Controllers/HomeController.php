@@ -80,4 +80,9 @@ class HomeController extends Controller
     {
         return view('jobproposal');
     }
+
+    public function soon()
+    {
+        return view('soon');
+    }
 }
