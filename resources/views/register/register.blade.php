@@ -78,6 +78,13 @@
 														<input type="text" name="Tel2" class="form-control" placeholder="Téléphone 2">
                                                     </div>
 
+                                                    <div class="form-group form-group-half">
+														<input type="text" name="Tel1" class="form-control" placeholder="Mot de pass">
+                                                    </div>
+                                                    <div class="form-group form-group-half">
+														<input type="text" name="Tel2" class="form-control" placeholder="Confirmation mot de passe">
+                                                    </div>
+
                                                     <div class="form-group ">
 														<input type="date" name="DateNais" class="form-control" placeholder="">
                                                     </div>
